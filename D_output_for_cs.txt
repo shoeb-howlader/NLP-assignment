@@ -1,0 +1,3 @@
+The corpus has 35885 types
+The corpus has 1402440 tokens
+the type/token ratio for the corpus is 0.025587547417358317

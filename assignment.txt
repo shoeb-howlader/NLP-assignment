@@ -1,0 +1,34 @@
+CSE5999: Special Topics on Natural Language Processing
+ 
+
+Assignment:
+
+Corpus processing and comparison of a specialized corpus and a corpus of generic English.
+
+ 
+
+We will use a corpus of Computer Science articles as a domain-specific corpus, and a part of the British National Corpus (BNC) as a corpus of generic English.  The zipped files are attached. Test your programs on a small sample first.
+
+ 
+
+You will need to do preprocessing and to do word tokenization. You can ignore the upper-lower case differences when counting words. Please describe in your report all the decisions you made relative to pre-processing and tokenization. Include in your report the results of the tokenizer on this small file.
+
+ 
+
+Provide the following information in your report for each of the two corpora:
+
+a)     For the top 100 most frequent words, print the word and its frequency, including stopwords (exclude punctuation tokens).
+
+b)     Print the above information for the next ranks (>100), but do not print every line, print only one line for every 1000 words (otherwise there will be too many lines to print) in decreasing order of frequency and decreasing alphabetical order among words with the same frequency.
+
+c)     Print the sequence c1, c2, c3, ...., c99 ,c100, c>100 where ci is the number of words in the corpus that have frequency count i (the frequency of frequencies). c>100 is the number of words that occur more than 100 times. Discuss your findings.
+
+d)     What is the type/token ratio for the corpus? The type/token ratio is defined as the number of unique words (types) divided by the number of words (tokens), punctuation excluded. How many types you had? How many tokens?
+
+e)     For the top 100 most frequent words, print the word and its frequency, excluding stopwords and punctuation. 
+
+f)      For the top 100 most frequent pairs of two consecutive words, print the pair and its frequency, excluding stopwords and punctuation.
+
+g)     Compute strong collocations of two words, for example using mutual information, chi-square, and other measures (include in your report the first 20 collocations for two measures). You can implement your own collocation extractor, or use tools.
+
+Include in the report a discussion of the results, with focus on comparison between the two corpora.
